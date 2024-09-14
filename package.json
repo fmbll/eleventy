@@ -7,7 +7,7 @@
     "start": "npx @11ty/eleventy --serve --port=8080",
     "clean": "rm -rf docs",
     "deploy": "npx @11ty/eleventy --pathprefix=/",
-    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/eleventy"
+    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/eleventy/"
   },
   "keywords": [],
   "author": "",

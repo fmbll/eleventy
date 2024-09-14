@@ -1,0 +1,17 @@
+---
+layout: "layout.njk"
+title: Página de inicio
+description: Mi página de inicio
+---
+
+<h1>{{ title }}</h1>
+<hr>
+<h2>{{ site.message }}</h2>
+<p>Para sacar mayor provecho al proyecto, revisa los siguientes enlaces:</p>
+<ul>
+    {% for link in site.linksDoc %}
+        <li>
+            <a href="{{ link.url }}" target="_blank">{{ link.text | safe }}</a>
+        </li>
+    {% endfor %}
+</ul>

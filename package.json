@@ -5,9 +5,9 @@
   "scripts": {
     "install": "npm install @11ty/eleventy --save-dev",
     "start": "npx @11ty/eleventy --serve --port=8080",
-    "clean": "rm -rf site",
+    "clean": "rm -rf docs",
     "deploy": "npx @11ty/eleventy --pathprefix=/",
-    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/subdirectory"
+    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/eleventy"
   },
   "keywords": [],
   "author": "",

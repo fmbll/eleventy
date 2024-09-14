@@ -1,5 +1,5 @@
 {
-  "name": "eleventy-sample",
+  "name": "eleventy",
   "version": "1.0.0",
   "main": ".eleventy.js",
   "scripts": {
